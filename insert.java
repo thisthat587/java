@@ -19,5 +19,6 @@ public class insert {
         arr[index] = num;
         array = Arrays.toString(arr);
         System.out.println("Modified Array : " + array);
+        sc.close();
     }
 }
