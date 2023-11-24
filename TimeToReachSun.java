@@ -8,5 +8,7 @@ public class TimeToReachSun {
         speed=sc.nextDouble();
         timeToReach=distanceToSun/speed;
         System.out.println("It takes "+String.valueOf(timeToReach)+" seconds to reach to the sun at the speed of "+String.valueOf(speed));
+        sc.close();
     }
+    
 }
