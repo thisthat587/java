@@ -12,7 +12,6 @@ public class insert {
         System.out.print("Enter the value of number to insert : ");
         int num = sc.nextInt();
         int length = arr.length - 1;
-        // System.out.println(length);
         for (int i = length; i != index; i--) {
             arr[i] = arr[i - 1];
         }
