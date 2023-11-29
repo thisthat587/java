@@ -7,7 +7,7 @@ class employee {
     private double DA;
     private double PF;
 
-    employee(int empId, String name, double basic_salary, double TA, double DA, double PF) {
+    public employee(int empId, String name, double basic_salary, double TA, double DA, double PF) {
         this.empId = empId;
         this.name = name;
         this.basic_salary = basic_salary;
