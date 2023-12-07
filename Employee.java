@@ -1,4 +1,3 @@
-
 abstract class people {
 
     private int empId;
@@ -34,7 +33,7 @@ class waiters extends people {
     waiters(int id, String name, String designation, double salary) {
         super(id, name, designation, salary);
     }
-    super.show();
+    // super.show();
     void show() {
         System.out.println("hello....");
     }
