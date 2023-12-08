@@ -7,10 +7,13 @@ public class applet1 extends Applet implements ActionListener {
     JButton b;
     JLabel jl;
     public void init(){
-        b=new JButton("Ok");
+        b=new JButton("Get SUM : ");
         jl=new JLabel();
         b.setBounds(25,25,150,30);
         jl.setBounds(25,100,150,30);
+        jl.setFont(new Font("Arial", Font.BOLD, 15));
+        jl.setBackground(Color.CYAN);
+        jl.setForeground(Color.RED);
         add(b);
         add(jl);
         setLayout(null);
@@ -18,6 +21,8 @@ public class applet1 extends Applet implements ActionListener {
     }
     
     public void actionPerformed(ActionEvent e){
-        jl.setText("Welcome");
+        int a=5,b=6;
+        int sum=a+b;
+        jl.setText("Sum of " + a + " and " + b + " is " + sum);
     }
 }

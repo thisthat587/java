@@ -36,6 +36,5 @@ public class employeeDetails {
     public static void main(String[] args) {
         employee employee1 = new employee(1, "Akash kumar", 50000, 3500, 2500, 2000);
         employee1.printEmployeeDetails();
-
     }
 }
