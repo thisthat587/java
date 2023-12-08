@@ -8,7 +8,6 @@ class sample{
     sample retObj(){
         return this;
     }
-
 }
 
 public class MethodCallingObject {
