@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ImageLoader",
+      "request": "launch",
+      "mainClass": "ImageLoader",
+      "projectName": "java_e83b970a"
+    },
+    {
+      "type": "java",
+      "name": "MultiThreadDemo",
+      "request": "launch",
+      "mainClass": "MultiThreadDemo",
+      "projectName": "java_e83b970a"
+    },
+    {
+      "type": "java",
       "name": "ObjAsArgument",
       "request": "launch",
       "mainClass": "ObjAsArgument",
