@@ -1,5 +1,5 @@
 //Create a class to store the details of employee and print all the details including including net salary details: id,name,basic salary,TA,DA,PF
-class employee {
+class employeee {
     private int empId;
     private String name;
     private double basic_salary;
@@ -7,7 +7,7 @@ class employee {
     private double DA;
     private double PF;
 
-    public employee(int empId, String name, double basic_salary, double TA, double DA, double PF) {
+    public employeee(int empId, String name, double basic_salary, double TA, double DA, double PF) {
         this.empId = empId;
         this.name = name;
         this.basic_salary = basic_salary;
@@ -32,9 +32,9 @@ class employee {
     }
 }
 
-public class employeeDetails {
+public class EmployeeDetails {
     public static void main(String[] args) {
-        employee employee1 = new employee(1, "Akash kumar", 50000, 3500, 2500, 2000);
+        employeee employee1 = new employeee(1, "Akash kumar", 50000, 3500, 2500, 2000);
         employee1.printEmployeeDetails();
     }
 }
