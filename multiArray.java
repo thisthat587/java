@@ -1,4 +1,4 @@
-public class multiArray {
+public class MultiArray {
     public static void main(String[] args) {
         int arr[][] = { { 2, 3 }, { 3, 4, 4, 6 }, { 4, 5, 1} };
         for (int i = 0; i < arr.length; i++) {

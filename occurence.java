@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class occurence {
+public class Occurence {
     public static void main(String[] args) {
         int arr[] = { 12, 2, 2, 3, 4, 45, 5, 6, 66, 5 };
         Scanner sc = new Scanner(System.in);

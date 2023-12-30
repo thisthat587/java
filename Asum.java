@@ -2,7 +2,7 @@
 // write A  program to store ten numbers in an array and print the sum of all elements .
 import java.util.Scanner;
 
-public class sum {
+public class Asum {
     public static void main(String[] st) {
         int arr[] = new int[10];
         int total = 0;

@@ -1,6 +1,6 @@
 // import java.util.Scanner;
 
-class sum {
+class Sum {
     int aSum(int... args) {
         int sum = 0;
         for (int value : args) {
@@ -10,9 +10,9 @@ class sum {
     }
 }
 
-public class sumFunction {
+public class SumFunction {
     public static void main(String[] args) {
-        sum s1 = new sum();
+        Sum s1 = new Sum();
         int result = s1.aSum(2, 3, 4, 5, 6, 7, 8, 8, 9);
         System.out.println("Sum of all given numbers : " + result);
     }

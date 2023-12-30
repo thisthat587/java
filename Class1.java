@@ -1,4 +1,4 @@
-public class class1 {
+public class Class1 {
     // Static method
     static void myStaticMethod() {
         System.out.println("Static methods can be called without creating objects");
@@ -14,7 +14,7 @@ public class class1 {
         myStaticMethod(); // Call the static method
         // myPublicMethod(); This would compile an error
 
-        class1 myObj = new class1(); // Create an object of Main
+        Class1 myObj = new Class1(); // Create an object of Main
         myObj.myPublicMethod(); // Call the public method on the object
     }
 }

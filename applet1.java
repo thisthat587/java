@@ -4,7 +4,7 @@ import java.awt.event.*;
 import javax.swing.*;
 
 // <applet code="applet1.class" width="500" height="500"></applet>
-public class applet1 extends Applet implements ActionListener {
+public class Applet1 extends Applet implements ActionListener {
     JButton btnsum;
     JButton btnsub;
     JButton btnmul;

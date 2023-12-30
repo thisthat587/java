@@ -1,17 +1,17 @@
-class parent {
+class Parent {
     void show() {
         System.out.println("From parent...");
     }
 }
 
-class child extends parent {
+class Child extends parent {
     void show() {
         // super.show();
         System.out.println("From child...");
     }
 }
 
-public class methodOverriding {
+public class MethodOverriding {
     public static void main(String[] args) {
         // objects are typically created at runtime.
         parent p = new parent();

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class insert {
+public class InsertInArray {
     public static void main(String[] args) {
         int arr[] = { 2, 3, 5, 67, 8, 9, 6, 54, 4 };
         String array = Arrays.toString(arr);

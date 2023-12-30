@@ -1,14 +1,14 @@
-abstract class people {
+abstract class People {
 
     private int empId;
     private String name;
     private String designation;
     private double salary;
 
-    public people() {
+    public People() {
     }
 
-    public people(int empId, String name, String designation, double salary) {
+    public People(int empId, String name, String designation, double salary) {
         this.empId = empId;
         this.name = name;
         this.designation = designation;
@@ -27,10 +27,10 @@ abstract class people {
     }
 }
 
-class waiters extends people {
-    waiters() {}
+class Waiters extends People {
+    Waiters() {}
 
-    waiters(int id, String name, String designation, double salary) {
+    Waiters(int id, String name, String designation, double salary) {
         super(id, name, designation, salary);
     }
     // super.show();
@@ -41,7 +41,7 @@ class waiters extends people {
 
 public class Employee {
     public static void main(String[] args) {
-        waiters w= new waiters(1,"rahim","waiter",15000);
+        Waiters w= new Waiters(1,"rahim","waiter",15000);
         w.showEmployeeDetails();
     }
 }

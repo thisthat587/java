@@ -11,7 +11,7 @@ class upperClass {
     }
 }
 
-public class abstractClass {
+public class AbstractClass {
     public static void main(String[] args) {
         upperClass u=new upperClass() ;
         System.out.println(u.sum1());
