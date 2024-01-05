@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Recursion",
+      "request": "launch",
+      "mainClass": "Recursion",
+      "projectName": "java_e83b970a"
+    },
+    {
+      "type": "java",
       "name": "ImageLoader",
       "request": "launch",
       "mainClass": "ImageLoader",
