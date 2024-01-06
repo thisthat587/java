@@ -1,5 +1,7 @@
+import java.util.*;
 public class Recursion {
     public static int sum(int n) {
+        Scanner sc=new Scanner(System.in);
         if (n > 0) {
             return n + sum(n - 1);
         }
